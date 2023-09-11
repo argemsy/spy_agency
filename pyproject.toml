@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "spy-agency"
+version = "0.1.0"
+description = ""
+authors = ["Argenis Vargas <argenis1818@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.9.10"
+django-utils = {git = "git@github.com:argemsy/django_utils.git"}
+
+
+
+[tool.black]
+line-length = 79
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
